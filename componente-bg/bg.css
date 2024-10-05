@@ -1,0 +1,17 @@
+.bg {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap }
+
+@media (max-width: 700px) {
+
+.bg {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    flex-direction: column } 
+
+}

@@ -1,0 +1,78 @@
+.footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-top: 1px solid dimgrey;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #13171C }
+
+.footer__logo {
+    margin-bottom: 50px;
+    width: 70px;
+    height: 70px }
+
+.footer__redes, .footer__links  {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100% }
+
+.links__div {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center }
+
+.div__icono {
+    margin: 5px;
+    width: 20px;
+    height: 20px }
+    
+.div__texto {
+    margin: 5px;
+    font-size: 2vh;
+    font-family: "Poppins", sans-serif;
+    color: white}
+
+.redes__icono {
+    margin: 5px;
+    width: 20px;
+    height: 20px }
+
+.redes__icono {
+    margin: 10px }
+
+.footer__p {
+    margin: 0px;
+    font-size: 1.8vh;
+    font-family: "Poppins", sans-serif;
+    color: white }
+
+@media (max-width: 700px) {
+
+.footer {
+    border-top: none;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: black }
+
+.footer__logo {
+    margin-bottom: 20px;
+    background-color: black }
+
+.footer__links {
+    margin-bottom: 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center }
+
+.links__div {
+    margin: 10px }
+    
+}

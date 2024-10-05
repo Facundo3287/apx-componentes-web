@@ -1,0 +1,76 @@
+
+.bg__titulo {
+    margin: 0px;
+    padding-bottom: 50px;
+    width: 100%;
+    font-size: 4vw;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    color: white }
+
+.bg__target {
+    padding: 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgba(200, 200, 200, 0.1); 
+    backdrop-filter: blur(10px) saturate(150%);
+    width: 25vw;
+    height: 40vw }
+
+.bg__target:nth-last-of-type(1) {
+    margin-left: 23px }
+
+.bg__target:nth-last-of-type(3) {
+    margin-right: 23px }
+
+.target__sticker {
+    padding-bottom: 10px;
+    width: 15vw;
+    height: 15vw }
+
+.target__titulo {
+    margin: 0px;
+    padding-bottom: 10px;
+    font-size: 3vw;
+    font-family: "Poppins", sans-serif;
+    color: white }
+
+.target__descripcion {
+    margin: 0px;
+    font-size: 1vw;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    color: white }
+
+@media (max-width: 700px) {
+
+.bg__titulo {
+    padding-bottom: 50px;
+    font-size: 6vw }
+
+.bg__target {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5vw;
+    width: 60vw;
+    height: 70vw }
+
+.bg__target:nth-last-of-type(1) {
+    margin-left: 0px }
+    
+.bg__target:nth-last-of-type(3) {
+    margin-right: 0px }
+    
+.target__sticker {
+    width: 35vw;
+    height: 35vw }
+
+.target__titulo {
+        font-size: 5vw }
+    
+.target__descripcion {
+    font-size: 2vw }
+    
+}

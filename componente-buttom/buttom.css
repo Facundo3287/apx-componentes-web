@@ -1,0 +1,26 @@
+.section__buttom {
+    margin-top: 10px;
+    border: none;
+    border-radius: 15px;
+    width: 35%;
+    height: 4vw;
+    background-color: #2a80ea;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5vw;
+    font-weight: 900 }
+
+.section__buttom:hover {
+    background-color: white }
+
+.section__buttom:active {
+    background-color: #2a80ea }
+
+@media (max-width: 700px)  {
+
+.section__buttom {
+    margin-top: 10px;
+    width: 90%;
+    height: 6vw;
+    font-size: 2vw }
+
+}
